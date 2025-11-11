@@ -52,9 +52,9 @@ const JamesNoteScene: React.FC<SceneProps> = ({ onNext }) => (
 
 const SimbaOutroScene: React.FC<SceneProps> = ({ onNext }) => (
   <div className="text-center flex flex-col items-center">
-    <CatIcon className="w-24 h-24 mb-4 text-stone-300"/>
-    <h2 className="text-3xl font-bold text-stone-100 mb-4">Someone's Waiting</h2>
-    <p className="text-stone-300 max-w-md mb-8">Simba is already prepping the couch for maximum post-op comfort. A full recovery plan of purrs, cuddles, and zero judgment for binge-watching shows all day is waiting for you.</p>
+    <h1 style={{fontSize: 50}}>☀️</h1>
+    <h2 className="text-3xl font-bold text-stone-100 mb-4">You are needed by us</h2>
+    <p className="text-stone-300 max-w-md mb-8">You are the sun that lights up our lives and allows us to shine </p>
     <button onClick={onNext} className="bg-stone-200 hover:bg-white text-stone-800 font-bold py-2 px-6 rounded-full transition duration-300">
       Almost there...
     </button>
