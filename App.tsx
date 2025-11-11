@@ -21,7 +21,7 @@ const IntroScene: React.FC<SceneProps> = ({ onNext }) => (
 
 const SimbaIntroScene: React.FC<SceneProps> = ({ onNext }) => (
   <div className="text-center flex flex-col items-center">
-    <h1 style={{fontSize: 60}}>☀️</h1>
+    <CatIcon className="w-24 h-24 mb-4 text-stone-300"/>
     <h2 className="text-3xl font-bold text-stone-100 mb-4">A Furry Friend is Thinking of You</h2>
     <p className="text-stone-300 max-w-md mb-8">
       Your close friend, Simba, loves you very much and can't wait for you to come home to rest and recover.
@@ -52,7 +52,7 @@ const JamesNoteScene: React.FC<SceneProps> = ({ onNext }) => (
 
 const SimbaOutroScene: React.FC<SceneProps> = ({ onNext }) => (
   <div className="text-center flex flex-col items-center">
-    <CatIcon/>
+    <h1 style={{fontSize: 60}}>☀️</h1>
     <h2 className="text-3xl font-bold text-stone-100 mb-4">You are needed by us</h2>
     <p className="text-stone-300 max-w-md mb-8">You are the sun that lights up our lives and allows us to shine </p>
     <button onClick={onNext} className="bg-stone-200 hover:bg-white text-stone-800 font-bold py-2 px-6 rounded-full transition duration-300">
